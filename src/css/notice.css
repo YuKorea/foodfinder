@@ -1,0 +1,98 @@
+.notice-container {
+   max-width: 800px;
+   margin: 2rem auto;
+   padding: 20px;
+   background-color: #6a7ba4;
+   border-radius: 10px;
+   border: 1px solid #e9e9e9;
+ }
+ .notice-container > h1 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Source Code Pro";
+color: #e7d0ba;
+text-transform: uppercase;
+letter-spacing: 3px;
+ }
+ .notice-list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .notice-item {
+   padding: 10px 10px;
+   margin: 10px;
+   font-weight: 600;
+   letter-spacing: 2px;
+   font-family: "Source Code Pro";
+border: 2px solid #e7d0ba;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 400;
+   font-style: normal;
+   color: #e7d0ba;
+   background-color: transparent;
+ }
+ 
+ 
+ 
+ .notice-item span {
+   display: block;
+ }
+ 
+ .notice-type, .notice-title, .notice-date {
+   flex: 1;
+ }
+ 
+ .notice-type {
+   color: #b4b4b4;
+   font-weight: bold;
+ }
+ 
+ .notice-title {
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ .notice-date {
+   color: #b4b4b4;
+   text-align: right;
+   margin-right: 10px;
+ }
+ 
+ .notice-content {
+   margin-top: 10px;
+   color: #333;
+ }
+ 
+ .notice-pagination {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ 
+ .notice-pagination button {
+   margin: 0 5px;
+   padding: 5px 10px;
+   letter-spacing: 2px;
+   font-family: "Source Code Pro";
+border: 2px solid #e7d0ba;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 400;
+   font-style: normal;
+   color: #e7d0ba;
+   background-color: transparent;
+ }
+ 
+ .notice-pagination button.active {
+   background-color: #e7d0ba;
+   color: #333;
+ }
+ 
+ .notice-pagination button:disabled {
+   cursor: not-allowed;
+   opacity: 0.5;
+ }
+ 

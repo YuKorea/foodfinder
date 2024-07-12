@@ -1,0 +1,30 @@
+/* topnav.css */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 14px 20px;
+  position: fixed; /* 추가된 부분: 상단 고정 */
+  top: 0; /* 화면의 최상단에 위치 */
+  width: 100%; /* 전체 화면 너비 */
+  z-index: 1000; /* 다른 요소보다 위에 표시되도록 z-index 설정 */
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.login-link {
+  margin-left: auto; /* 로그인 링크를 오른쪽 끝으로 이동 */
+  margin-right: 25px;
+}
+

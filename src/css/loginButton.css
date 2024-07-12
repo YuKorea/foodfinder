@@ -1,0 +1,13 @@
+#loginButton{
+    color: #e7d0ba;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    background-color: #6a7ba4;
+}
+/* #loginPage{
+    list-style-type: none;
+    text-decoration: none;
+} */
