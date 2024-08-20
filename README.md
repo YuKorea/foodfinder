@@ -5,6 +5,3 @@ React를 기반으로 개발되었으며, 주요 기능으로 음식점 검색, 
 특히, 카카오맵 API를 활용한 지도 관련 기능에 중점을 두고 있습니다.
 
 기간 : 05.24.2024 ~ 06.12.2024
-
-프로젝트 PPT 링크
-https://docs.google.com/presentation/d/1sueD87MIHzLPrTNW1y_8ww-QfW93IPajGGJO06gNxxY/edit?usp=sharing
